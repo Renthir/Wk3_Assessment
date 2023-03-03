@@ -1,0 +1,91 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+#checkboxes > input{
+	display: inline;
+}
+
+.profile-button {
+	display: inline;
+	padding: 8px;
+	background-color: #FFF05A;
+	border-radius: 100px;
+}
+
+#mat {
+	background-color: #A69F98;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#button-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card {
+	background-color: #8C6057;
+	height: 15vh;
+	width: 15vw;
+	margin: 20px;
+	border-radius: 20px;
+	border: solid 15px;
+	border-color: #5C5346;
+	transition: height 5s;
+	transition: width 5s;	
+	color: #8C6057;
+	transition: color .35s;
+}
+
+.card:hover {
+	height: 16vh;
+	width: 16vw;
+	color: black
+}
+
+h3 {
+	text-align: center;
+	color: black;
+}
+
+
